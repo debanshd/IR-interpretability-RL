@@ -25,9 +25,9 @@ Zero-shot retrieval performance (NDCG@10) on out-of-domain BEIR datasets:
 
 | Dataset | Domain | Dense Base | RL-Steered (Ours) | Rescue Rate |
 | :--- | :--- | :--- | :--- | :--- |
-| **SciDocs** | Scientific | 0.1143 | **0.1562** | +42.3% |
-| **Arguana** | Argumentative | 0.3371 | **0.4675** | +75.3% |
-| **NFCorpus** | Medical | 0.2662 | **0.3569** | +64.0% |
+| **SciDocs** | Scientific | 0.1143 | **0.1412** | +34.2% |
+| **Arguana** | Argumentative | 0.3371 | **0.4105** | +61.3% |
+| **NFCorpus** | Medical | 0.2662 | **0.3491** | +56.0% |
 
 The architecture executes these improvements with minimal computational overhead practically achieving $O(1)$ routing time overhead relative to the dense baseline.
 
